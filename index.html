@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="normalize.css" rel="stylesheet" type="text/css">
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<title>Portfolio - Minna Saalasti</title>
+	</head>
+
+	<body>
+		
+        <div class="full bg">
+            <div class="header">
+                <ul class="menu">
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class='myname'>
+                <canvas id='title'
+                width='300' height='300'></canvas>
+                <script src='title.js'></script>
+            </div>
+           <div class='subjects'>
+                <canvas id='listOfSubjectsAndBG'
+                width='1920' height='800'></canvas>
+                <script src='script.js'></script>
+            </div>
+            <div class='character-eyes'>
+                <canvas id='character'
+                style='background-color:transparent'
+                width='1920' height='1080'></canvas>
+                <script src='character.js'></script>
+            </div>
+            <div class='heart-and-photo'>
+                <canvas id='heart'
+                width='250' height='250'></canvas>
+                <script src='heart.js'></script>
+            </div>
+            <img id='myImg' src='my-img.png'>
+            <div class='allow-sound-button'>
+                <canvas id='allow'
+                width='110' height='110'></canvas>
+                <script src='allow.js'></script>
+            </div>
+            
+            <div style="padding:56.25% 0 0 0;position:relative;">
+                <iframe src="https://player.vimeo.com/video/780093455?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
+                frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                style="position:absolute;top:795px;left:0;width:100%;height:100%;"
+                title="Animation showreel 2022"></iframe></div><script
+                src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,120 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap');
+/* CSS Document */
+body {
+	background-color:#ffffff;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+ 	color: #000000;
+    overflow:auto;
+}
+
+/*--------------------CANVAS ELEMENTS---------------------------*/
+.myname{
+    position: absolute;
+    top:0;
+    width:100%;
+}
+.subjects {
+    position:absolute;
+    z-index: 1;
+    width: 100%;
+}
+#listOfSubjectsAndBG{
+    width:400%;
+}
+.character-eyes{
+   position:absolute;
+    z-index: 2;
+}
+#character{
+    width:140%;
+}
+.heart-and-photo{
+    position: absolute;
+    top:65%;
+    left:20%;
+    z-index: 3;
+}
+#heart{
+    width: 70%;
+}
+.allow-sound-button{
+    position: absolute;
+    z-index: 4;
+    right:1%;
+    top:2%;
+}
+.name{
+    position:absolute;
+    top:0;
+}
+/*-------------------------------My image-------------------*/
+img{
+    width: 10%;
+    position: absolute;
+    top:38%;
+    right:5%;
+    display: none;
+}
+/*---------------------------------MENU---------------------------------*/
+.header {
+    max-width:90%;
+    margin:2% 0;
+    z-index: 5;
+    text-align: right;
+}
+.header ul {
+    margin: 0;
+    padding: 0 50px;
+    list-style: none;
+}
+.header li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.header li a{
+    display: block;
+    text-decoration: none;
+	color:#000000;
+	font-size:1em;
+}
+
+
+
+/*----------------------tablet------------*/
+@media only screen and (min-width:580px){
+
+}
+/*-------------------desktop----------------------*/
+@media only screen and (min-width:960px){
+    .subjects {
+        position:absolute;
+        z-index: 1;
+        width: 100%;
+    }
+    #listOfSubjectsAndBG{
+        width:100%;
+    }
+    .character-eyes{
+        position:absolute;
+        z-index: 2;
+     }
+    #character{
+        width:100%;
+     }
+    .heart-and-photo{
+        position: absolute;
+        top:65%;
+        left:11%;
+        z-index: 3;
+    }
+    #heart{
+        width: 100%;
+    }
+    .allow-sound-button{
+        position: absolute;
+        z-index: 4;
+        right:5%;
+        top:0.6%;
+    }
+}
